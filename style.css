@@ -1,6 +1,55 @@
+body{
+    background-color: #ffcce6;
+}
+
+.header{
+   display:flex;
+   justify-content:center;  
+   font-size: 50px
+}
 #rowfooter{
     display:flex;
     flex-direction:row;
     justify-content:space-around;
-    
+    padding: 20px;
+    background-color: #d9b3ff;
 }
+#bts1{
+    width:1366px;
+}
+.rowcontact{
+    display: flex;
+    flex-direction:row;
+   
+}
+#media{
+    width:40px;
+    height:39px;
+    padding: 10px
+}
+h1{
+    text-align: center;
+}
+#btsmugs{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 30px
+    text-align:center;
+}
+
+.photos{
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.lowfooter{
+    background-color: #b3d9ff
+
+}
+
